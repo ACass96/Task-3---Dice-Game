@@ -42,5 +42,4 @@ class ProbabilityTable {
         return output;
     }
 }
-
 module.exports = ProbabilityTable;

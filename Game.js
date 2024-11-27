@@ -8,7 +8,6 @@ const DiceConfigParser = require("./DiceConfigParser");
 class Game {
     constructor(diceConfigs) {
         this.diceConfigs = diceConfigs;
-        // Asegurarse de crear instancias de la clase Dice
         this.diceArray = DiceConfigParser.parse(diceConfigs).map(config => new Dice(config));
         this.menu = new Menu();
     }

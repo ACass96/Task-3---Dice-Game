@@ -1,6 +1,5 @@
 const Game = require("./Game");
 
-// Los dados se pueden pasar como argumentos de línea de comandos
 const diceConfigs = process.argv.slice(2);
 
 if (diceConfigs.length < 3) {

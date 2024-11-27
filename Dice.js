@@ -15,7 +15,7 @@ class Dice {
     }
 
     toString() {
-        return this.values.join(", "); // Usamos this.values en lugar de this.sides
+        return this.values.join(", ");
     }
 }
 
